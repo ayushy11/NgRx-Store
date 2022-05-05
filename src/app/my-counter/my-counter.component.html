@@ -1,0 +1,8 @@
+<main class="container">
+  <button class="btn" (click)="increment()">Increment</button>
+
+  <div>Current Count: {{ count$ | async }}</div>
+
+  <button class="btn" (click)="decrement()">Decrement</button>
+  <button class="btn" (click)="reset()">Reset Counter</button>
+</main>
